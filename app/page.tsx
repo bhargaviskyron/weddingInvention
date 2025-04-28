@@ -84,34 +84,52 @@ export default function Home() {
       </section>
 
       {/* Our Story Section */}
-      <section id="story" className="py-20 bg-white">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl md:text-4xl font-serif text-center mb-12">Our Story</h2>
-          <div className="grid md:grid-cols-2 gap-10 items-center">
-            <div>
-              <img
-                src="/image1.jpg?height=600&width=500"
-                alt="Couple"
-                className="rounded-lg shadow-lg w-full h-auto"
-              />
-            </div>
-            <div>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Every love story is beautiful, but ours is my favorite. Our journey began with a chance encounter that
-                blossomed into a deep connection. Through laughter and tears, adventures and quiet moments, we found in
-                each other a love worth celebrating for a lifetime.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                As we prepare to begin this new chapter together, we are filled with gratitude for the love and support
-                of our family and friends. We can't wait to celebrate this special day with all of you.
-              </p>
-              <div className="mt-8 flex justify-center">
-                <Heart className="text-rose-400 h-12 w-12" />
-              </div>
-            </div>
-          </div>
+<section id="story" className="py-20 bg-white">
+  <div className="container mx-auto px-4 max-w-4xl">
+    <h2 className="text-3xl md:text-4xl font-serif text-center mb-12">Our Story</h2>
+    <div className="grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <img
+          src="/image1.jpg?height=600&width=500"
+          alt="Couple"
+          className="rounded-lg shadow-lg w-full h-auto"
+        />
+      </div>
+      <div>
+        <p className="text-lg text-gray-700 leading-relaxed mb-6">
+          Every love story is beautiful, but ours is my favorite. Our journey began with a chance encounter that
+          blossomed into a deep connection. Through laughter and tears, adventures and quiet moments, we found in
+          each other a love worth celebrating for a lifetime.
+        </p>
+        <p className="text-lg text-gray-700 leading-relaxed">
+          As we prepare to begin this new chapter together, we are filled with gratitude for the love and support
+          of our family and friends. We can't wait to celebrate this special day with all of you.
+        </p>
+        <div className="mt-8 flex justify-center">
+          <Heart className="text-rose-400 h-12 w-12" />
         </div>
-      </section>
+      </div>
+    </div>
+
+   
+
+  </div>
+</section>
+<section>
+  <div>
+  <h2 className="text-3xl md:text-4xl font-serif text-center mb-12">Invitation</h2>
+  </div>
+  <div>
+     {/* Invitation Image Below Story */}
+     <div className="mt-16 flex justify-center">
+  <img
+    src="/invitation.jpg?height=1000&width=800"  // Corrected typo in filename from 'invetation' to 'invitation'
+    alt="Wedding Invitation"
+    className="rounded-2xl shadow-xl w-full max-w-2xl"
+  />
+</div>
+  </div>
+</section>
 
       {/* Event Details Section */}
       <section id="details" className="py-20 bg-neutral-50">
@@ -153,7 +171,8 @@ export default function Home() {
   
 </div>
 <div>
-  <h3 className="text-xl font-semibold mb-2">Location On Maps:</h3>
+  
+<h2 className="text-3xl md:text-4xl font-serif text-center mb-12">Location </h2>
   <div className="w-[1000px] h-[450px]">
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3817.6376441036973!2d80.76434707515378!3d16.893810283911723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTbCsDUzJzM3LjciTiA4MMKwNDYnMDAuOSJF!5e0!3m2!1sen!2sin!4v1745732091450!5m2!1sen!2sin"
