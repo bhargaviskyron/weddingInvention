@@ -5,6 +5,9 @@ export default function Gallery() {
     { src: "/image1.jpg?height=800&width=600", alt: "Couple Image 1" },
     
     { src: "/image3.jpg?height=800&width=600", alt: "Couple Image 3" }, 
+    { src: "/image4.jpeg?height=800&width=600", alt: "Couple Image 3" }, 
+    { src: "/image5.jpeg?height=800&width=600", alt: "Couple Image 3" }, 
+    { src: "/image6.jpeg?height=800&width=600", alt: "Couple Image 3" }, 
   ]
 
   return (
